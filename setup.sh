@@ -30,7 +30,7 @@ $INSTALL build-essential
 $INSTALL texinfo libtinfo-dev
 
 # compile
-EMACSBASE=emacs-24.5
+EMACSBASE=emacs-27.1
 EMACSPKG="$EMACSBASE.tar.gz"
 if [ ! -f /vagrant/archive/$EMACSPKG ]; then
     mkdir -p /vagrant/archive
